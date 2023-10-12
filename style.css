@@ -112,9 +112,56 @@ h1 {
     text-align: center;
 }
 
-#second p {
+#second article {
     text-align: center;
     font-family: Poppins, sans-serif;
     margin-bottom: 50px;
+    padding-top: 10px;
     
 }
+
+#features > div > img {
+    width: 3rem;
+    height: 2.50rem;
+}
+
+#features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#features > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#features > div > h2 {
+    color: #ED1C24;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+}
+
+
+#third > a {
+    padding: 20px 100px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    right: 100px;
+}
+
